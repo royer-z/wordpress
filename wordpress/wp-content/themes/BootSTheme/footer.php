@@ -1,3 +1,5 @@
+<?php wp_footer(); ?>
+
 <div class = "navbar navbar-default navbar-fixed-bottom">
 
     <div class = "container">
@@ -60,7 +62,7 @@
 </div>
 
 <script src = "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-
-
+<!-- Bootstrap script -->
+<script src="../wp-content/themes/MyBSTheme/js/bootstrap.min.js"></script>
 </body>
 </html>
