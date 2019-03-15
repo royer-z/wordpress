@@ -1,9 +1,10 @@
+<?php wp_head(); ?>
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
 <head>
     <title><?php wp_title(' | ',true,'right'); ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <?php echo get_stylesheet_uri(); ?>
+    <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>">
 </head>
 <body>
 
@@ -46,7 +47,7 @@
 
                 </li>
                 <li><a href = "#">About</a></li>
-                <li><a href = "#contact" data-toggle="modal">Contact</a></li>
+                <li><a href = "#" data-toggle="modal">Contact</a></li>
 
             </ul>
 
